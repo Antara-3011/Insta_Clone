@@ -74,3 +74,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Login Page
 
 ![alt text](image-1.png)
+
+## Signup Page
+
+![alt text](image-2.png)
+
+## Home Page
+
+![alt text](image-3.png)
+
+## Profile Page
+
+![alt text](image-4.png)
