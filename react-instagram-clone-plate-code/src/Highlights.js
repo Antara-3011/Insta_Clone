@@ -7,11 +7,11 @@ import highlight4 from "./assets/highlight4.png";
 import highlight5 from "./assets/highlight5.png";
 
 let highlightsArray = [
-  { src: highlight1, label: "WEB-DEV" },
-  { src: highlight2, label: "FUN QNAs" },
-  { src: highlight3, label: "OUR JOURNEY" },
-  { src: highlight4, label: "HELPFUL QNAs" },
-  { src: highlight5, label: "CSS/JS EFFECTS" },
+  { src: highlight1, label: "PROGRAMING" },
+  { src: highlight2, label: "FUNNY MOMENTS" },
+  { src: highlight3, label: "MY JOURNEY" },
+  { src: highlight4, label: "CHITCHAT" },
+  { src: highlight5, label: "VIEW" },
 ];
 
 const Wrapper = styled.div`

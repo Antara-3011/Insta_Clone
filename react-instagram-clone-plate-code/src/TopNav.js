@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { BiChevronDown } from "react-icons/bi";
 import { FiPlusSquare } from "react-icons/fi";
 import { AiOutlineMenu } from "react-icons/ai";
-
+import { useSelector } from "react-redux";
 const TopNavWrapper = styled.div`
   display: flex;
   justify-content: space-between;
@@ -53,10 +53,11 @@ const MenuNotification = styled.div`
 `;
 
 function TopNav() {
+  const user = useSelector((state) => state.data.user.user);
   return (
     <TopNavWrapper>
       <AccountNav>
-        <ProfileName>sparshcodes</ProfileName>
+        <ProfileName>{user.email}</ProfileName>
         <BiChevronDown size="28px" />
         <NotificationDot></NotificationDot>
       </AccountNav>

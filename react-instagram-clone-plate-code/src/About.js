@@ -34,9 +34,9 @@ function About() {
   return (
     <AboutWrapper>
       <ProfileName> {user.username} || Creating a life I love ❤️❤️</ProfileName>
-      <ProfileCategory>Education</ProfileCategory>
-      <BioText>🌐All About FrontEnd Web-Development</BioText>
-      <BioText>📒Resources/tips/tricks/tutorials</BioText>
+      <ProfileCategory>Student</ProfileCategory>
+      <BioText>🌐Traveling</BioText>
+      <BioText>📒Bookish</BioText>
     </AboutWrapper>
   );
 }
